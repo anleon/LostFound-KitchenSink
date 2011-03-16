@@ -64,13 +64,13 @@ found.add(saveBtn);
 var createReq = Titanium.Network.createHTTPClient();
 createReq.onload = function () {
 	var alertDialog = Titanium.UI.createAlertDialog({  
-		title: 'Alert',  
+		title: 'Ditt fynd har sparats',  
 		message: this.responseText,  
 		buttonNames: ['OK']  
 	});  
 	alertDialog.show();  
 	alertDialog.addEventListener('click',function(e) {  
-		found.tabGroup.setActiveTab(0);  
+		found.tabGroup.setActiveTab(2);		//decides what window to go to.  
 	});
 };
 

@@ -10,8 +10,9 @@ function getItems() {
 		try {
 			var json = eval('(' + this.responseText + ')');
 		
-			Titanium.API.info('json är:  ' + json.length);
-	
+			//Titanium.API.info('json är:  ' + json.length);
+			json.reverse();
+			
 			for (var c = 0; c < json.length; c++) {
 				var item = json[c].item;
 				var description = json[c].description;
