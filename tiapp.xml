@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
 <id>com.notingham.karttest</id>
-<name>karttest</name>
+<name>LostAndFound</name>
 <version>1.0</version>
 <publisher>Lavinia</publisher>
 <url>none</url>
